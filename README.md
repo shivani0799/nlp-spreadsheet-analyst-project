@@ -2,19 +2,6 @@
 ### Conversational Business Intelligence Agent for Messy Spreadsheets
 
 An enterprise-grade AI Agent that allows business users to interact with complex, messy tabular data in plain English. Built to evaluate on the **NYC 311 Service Requests Dataset** (`erm2-nwe9`) and handle real-world dirty spreadsheets.
-
----
-
-## 🏆 Evaluation Rubric & Score Breakdown (100 / 100 Marks)
-
-| Rubric Section | Marks Allocated | Marks Achieved | Key Capabilities & Verification |
-| :--- | :---: | :---: | :--- |
-| **1. Accuracy on 5 Predefined Questions** | **40 Marks** | **40 / 40** | All 5 predefined benchmark questions executed with 100% precision, returning accurate data tables, correct row aggregation, and contextual executive insights. |
-| **2. Robustness (Nulls & Wrong Formats)** | **30 Marks** | **30 / 30** | Auto-cleaner handles missing values (`N/A`, `null`, `??`, ` - `), inconsistent headers, currency/percentage symbols, float zip codes (`10021.0`), mixed datetime formats, and removes duplicate rows without crashing. |
-| **3. Chart Quality & Insights** | **20 Marks** | **20 / 20** | Dual visualizer: interactive Plotly WebGL charts + high-res Matplotlib PNGs. Auto-detects chart type (Horizontal Bar for ranking, Line for temporal trends, Donut for composition). Generates a 1-line actionable business insight. |
-| **4. Code Execution Safety** | **10 Marks** | **10 / 10** | Hardened AST (Abstract Syntax Tree) validator blocks `import`, `os`, `sys`, `subprocess`, `eval`, `exec`, `open`, `__subclasses__` sandbox escapes, and unauthorized disk writes before execution. |
-| **TOTAL SCORE** | **100 Marks** | **100 / 100** | **Verified by automated test suite (`python test_suite.py`)** |
-
 ---
 
 ## ⚡ Key Added Features: First-Page Authentication & Conversational AI Chatbot
