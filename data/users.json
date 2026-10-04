@@ -1,0 +1,29 @@
+{
+  "analyst@company.com": {
+    "id": "13d193b0-88fb-44d2-8bed-7c29037146f7",
+    "email": "analyst@company.com",
+    "name": "Shivani (Senior Analyst)",
+    "role": "Senior Business Analyst",
+    "salt": "d4935c62bd8d44a4bf9fbc7c98c538a0",
+    "pwd_hash": "599d7a8b07d2807d5a9f68a30ba979db4b7def52c250719e59d2931a822fbb0a",
+    "created_at": 1791089641.3487797
+  },
+  "priya.sharma@citygov.org": {
+    "id": "9bc23233-fb2f-428d-b0bf-980621b3ff97",
+    "email": "priya.sharma@citygov.org",
+    "name": "Priya Sharma",
+    "role": "Business Analyst",
+    "salt": "7e74a5803c834eaa819a555f2db689a5",
+    "pwd_hash": "c3bc2cea3be7130df4b57a77e4907411bc0cf6c127bf1a9858794d7c5e3005a6",
+    "created_at": 1791089808.0223455
+  },
+  "abc@gmail.com": {
+    "id": "8e39ea35-d5bf-4f99-b4a8-7fd42e966732",
+    "email": "abc@gmail.com",
+    "name": "shivani",
+    "role": "Business Analyst",
+    "salt": "c0ef2e73d94840d1892c8e956c799080",
+    "pwd_hash": "162a064e53b451d323fb1d31d228c57a3cde75190e39fed0363df78bfae7ce1a",
+    "created_at": 1791090292.2316275
+  }
+}
